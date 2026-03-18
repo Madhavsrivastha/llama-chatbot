@@ -1,0 +1,4 @@
+transformers
+qdrant-client
+numpy
+pandas

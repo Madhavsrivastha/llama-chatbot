@@ -1,0 +1,41 @@
+[{
+"instruction": "Determine if the input is a question related to chemical science. If it is, return a JSON object with the 'valid' field set to true. If it is not, return a JSON object with the 'valid' field set to false, and the 'reason' field set to the type of question or statement it is.",
+"input": "What is the atomic number of oxygen?",
+"output": "{'valid': true}"
+},
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "What is a chemical bond?",
+"output": "{'valid': true}"
+},
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "What is the periodic table?",
+"output": "{'valid': true}"
+},
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "What is a molecule?",
+"output": "{'valid': true}"
+},
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "What is pH in chemistry?",
+"output": "{'valid': true}"
+}
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "Who will win the next US election?",
+"output": "{'valid': false, 'reason': 'politics'}"
+},
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "What policies did the government announce today?",
+"output": "{'valid': false, 'reason': 'politics'}"
+},
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "What are the results of the latest political debate?",
+"output": "{'valid': false, 'reason': 'politics'}"
+}
+]

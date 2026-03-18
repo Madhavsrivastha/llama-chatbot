@@ -1,0 +1,7 @@
+*.gguf
+*.wasm
+__pycache__/
+.env
+qdrant_storage/
+*.zip
+

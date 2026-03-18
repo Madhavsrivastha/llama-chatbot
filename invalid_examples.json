@@ -1,0 +1,15 @@
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "Who will win the next US election?",
+"output": "{'valid': false, 'reason': 'politics'}"
+},
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "What policies did the government announce today?",
+"output": "{'valid': false, 'reason': 'politics'}"
+},
+{
+"instruction": "Determine if the input is a question related to chemical science.",
+"input": "What are the results of the latest political debate?",
+"output": "{'valid': false, 'reason': 'politics'}"
+}
